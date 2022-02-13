@@ -3,12 +3,31 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-04</title>
+    <link rel='stylesheet' href='style.css'>
 </head>
 
 
 <body>
+    <h1>Event Handling</h1>
+
+    <div class="shapes-container">
+        <svg id="circle1" onClick = "circle1()" viewBox="0 0 200 200" width="200" height="200">
+            <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="cyan"/>
+
+            <text id="count" x="85" y="105">0</text>
+        </svg>
+
+        <svg id="circle2" viewBox="0 0 200 200" width="200" height="200">
+            <circle cx="100" cy="100" r="80" fill="purple"/>
+        </svg>
+
+        <svg id="circle3" viewBox="0 0 200 200" width="200" height="200">
+            <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="lightpink"/>
+        </svg>
 
 
+    <script src="main.js"></script>
 </body>
 
 </html>
