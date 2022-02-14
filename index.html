@@ -12,19 +12,25 @@
     <h1>Event Handling</h1>
 
     <div class="shapes-container">
-        <svg id="circle1" onClick = "circle1()" viewBox="0 0 200 200" width="200" height="200">
-            <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="cyan"/>
 
-            <text id="count" x="85" y="105">0</text>
-        </svg>
+        <div id="circle1" onClick="circle1()">
+            <svg viewBox="0 0 200 200" width="200" height="200">
+                <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="rgb(168, 235, 255)"/>
+                <text id="count" x="95" y="105">0</text>
+            </svg>
+        </div>
+        
+        <div id="circle2" class="border1" onMouseOver="circle2()">
+            <svg viewBox="0 0 200 200" width="200" height="200">
+                <circle class="border1" cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="rgb(187, 255, 187)"/>
+            </svg>
+        </div>
 
-        <svg id="circle2" viewBox="0 0 200 200" width="200" height="200">
-            <circle cx="100" cy="100" r="80" fill="purple"/>
-        </svg>
-
-        <svg id="circle3" viewBox="0 0 200 200" width="200" height="200">
-            <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="lightpink"/>
-        </svg>
+        <div id="circle3" onClick="circle3()">
+            <svg viewBox="0 0 200 200" width="200" height="200">
+                <circle cx="100" cy="100" r="80" stroke="black" stroke-width="5" fill="rgb(194, 161, 255)"/>
+            </svg>
+        </div>
 
 
     <script src="main.js"></script>
