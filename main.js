@@ -19,7 +19,7 @@ function mouseOut() {
 // circle 3 function: adds and removes the opacity of the entire shape
 function circle3() {
 	const showCircle = document.getElementById("circle3");
-	if (showCircle.style.opacity === "0") {
+	if (showCircle.style.opacity == "0") {
 		showCircle.style.opacity = 1;
 		console.log(showCircle);
 	} else {
