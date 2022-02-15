@@ -11,5 +11,12 @@ function circle2() {
 }
 
 function circle3() {
-	let showCircle = document.getElementById("show_circle")
+	const showCircle = document.getElementById("circle3");
+	if (showCircle.style.opacity == "0") {
+		showCircle.style.opacity = 1;
+		console.log(showCircle);
+	} else {
+		showCircle.style.opacity = 0;
+		console.log(showCircle);
+	}
 }
