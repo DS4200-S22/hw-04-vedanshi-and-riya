@@ -1,11 +1,15 @@
+/* make all the font to arial */
 body {
   font-family: "Arial";
 }
 
+/* centered heading */
 h1 {
   text-align: center;
 }
 
+/* adding a container for the shapes to include the values. 
+   on the same page, side-by-side in one row */
 .shapes-container {
   display: flex;
   flex-direction: row;
